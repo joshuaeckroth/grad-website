@@ -82,34 +82,47 @@ blockquote
   margin: 20pt 30pt 20pt 30pt;
 }
 
-#contact
+#header
 {
-  padding-left: 10pt;
-  width: 45%;
-  float: left;
+  width: 100%;
 }
 
-#persistent
+#photo
 {
-  width: 50%;
-  float: right;
-}
-
-.plinks
-{
-  margin-top: 10pt;
-  margin-bottom: 10pt;
-}
-
-#quarters
-{
-  padding-top: 10pt;
-  padding-left: 10pt;
   width: 25%;
   float: left;
 }
 
-.quarter
+#info
+{
+  float: left;
+  width: 75%;
+}
+
+#info h1
+{
+  margin-bottom: 5pt;
+}
+
+#links
+{
+  margin-top: 10pt;
+  line-height: 1.7;
+}
+
+#content
+{
+  clear: both;
+}
+
+#sections
+{
+  padding-top: 10pt;
+  width: 25%;
+  float: left;
+}
+
+.section
 {
   margin-top: 10pt;
   margin-bottom: 10pt;
@@ -117,7 +130,13 @@ blockquote
 
 #expansion
 {
-  margin-top: -40pt;
   width: 70%;
+  margin-top: -40pt;
   float: left;
 }
+
+#expansion p
+{
+  text-align: justify;
+}
+
